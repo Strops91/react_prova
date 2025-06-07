@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Container, Typography, List, ListItem, ListItemText, CircularProgress, Paper} from '@mui/material';
+import '@mui/material/styles';
 
 function Lista() {
   const [posts, setPosts] = useState([]);

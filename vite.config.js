@@ -8,8 +8,7 @@ export default defineConfig({
       '@mui/material',
       '@emotion/react',
       '@emotion/styled'
-    ],
-    exclude: ['js-big-decimal']
+    ]
   },
   build: {
     commonjsOptions: {
