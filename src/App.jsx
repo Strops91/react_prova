@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Lista from './components/Lista';
 import Detail from './components/Dados';
+import Home from './components/home';
 
 function App() {
   return (
