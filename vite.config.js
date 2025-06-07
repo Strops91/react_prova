@@ -4,6 +4,16 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    include: ['@mui/material']
+    include: [
+      '@mui/material',
+      '@emotion/react',
+      '@emotion/styled'
+    ],
+    exclude: ['js-big-decimal']
+  },
+  build: {
+    commonjsOptions: {
+      transformMixedEsModules: true
+    }
   }
 });
