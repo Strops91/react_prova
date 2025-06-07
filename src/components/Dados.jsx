@@ -1,12 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import {
-  Container,
-  Typography,
-  CircularProgress,
-  Card,
-  CardContent
-} from '@mui/material';
+import { Container, Typography, CircularProgress, Card, CardContent} from '@mui/material';
 
 function Detail() {
   const { id } = useParams();
