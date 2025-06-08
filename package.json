@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --force",
-    "prebuild": "npm install --force",
-    "lint": "eslint .",
+    "build": "vite build",
     "preview": "vite preview",
+    "vercel-build": "npm run build",
+    "lint": "eslint .",
     "fix-deps": "rm -rf node_modules package-lock.json && npm install --force"
   },
   "dependencies": {
