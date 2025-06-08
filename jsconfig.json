@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mui/material/*": ["node_modules/@mui/material/*"],
+      "@mui/icons-material/*": ["node_modules/@mui/icons-material/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
